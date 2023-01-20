@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "es2015",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "resolveJsonModule": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

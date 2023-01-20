@@ -1,0 +1,50 @@
+.winnersBox {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+
+  .winnersNumber {
+    font-size: 30px;
+  }
+
+  .numberPage {
+    font-size: 25px;
+  }
+
+  .nameRow {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+
+    .textBlock {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 92px;
+    }
+    .carName {
+      width: 175px;
+    }
+
+    .bestTime,
+    .wins {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .prevNextRow {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
